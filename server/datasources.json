@@ -1,0 +1,16 @@
+{
+  "db": {
+    "name": "db",
+    "connector": "memory"
+  },
+  "mysql": {
+    "host": "localhost",
+    "port": 0,
+    "url": "mysql://root:@localhost/todos",
+    "database": "todos",
+    "password": "",
+    "name": "mysql",
+    "user": "root",
+    "connector": "mysql"
+  }
+}
