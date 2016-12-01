@@ -1,0 +1,14 @@
+body {
+	padding: 20px;
+}
+.row {
+	margin-bottom: 20px;
+}
+.col-lg-12, .col-lg-4 {
+	margin-bottom: 20px;
+	background-color: #eee;
+	border: 1px solid #ff0000;
+}
+#todofatti ul {
+	font-size: 20px;
+}

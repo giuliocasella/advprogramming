@@ -26,11 +26,7 @@
       "default": false
     },
     "important": {
-      "type": "string"
-    },
-    "extra": {
-      "type": "boolean",
-      "default": false
+      "type": "boolean"
     }
   },
   "validations": [],

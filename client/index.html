@@ -1,0 +1,88 @@
+<!doctype html>
+<html lang="it">
+<head>
+    <title>Todo-list</title>
+    <link href="/client/css/bootstrap.min.css" rel="stylesheet">
+    <link href="/client/css/style.css" rel="stylesheet">
+
+</head>
+<body>
+
+
+<div class="row">
+<!--principale-->
+	<div class="col-lg-8">
+		<div class="row">
+			<!--add-->
+			<div class="col-lg-12">
+				<h2>Aggiungi TODO</h2>
+				<form>
+				  <div class="form-group">
+				    <label for="name">nome TODO</label>
+				    <input type="text" class="form-control" name="name" placeholder="todo-name">
+				  </div>
+				  <div class="form-group">
+				    <label for="description">Descrizione</label>
+				    <input type="text" class="form-control" name="description" placeholder="todo-description">
+				  </div>
+				  <div class="radio">
+					  <label>
+					    <input type="radio" name="important" value="true" >
+					    Importante
+					  </label>
+					  <br/>
+					  <label>
+					    <input type="radio" name="important" value="false" checked>
+					    Non importante
+					  </label>
+				  </div>
+				  <button type="submit" class="btn btn-default">Submit</button>
+				</form>
+			</div>
+		</div>
+		<div class="row">
+			<!--elenco-->
+			<div class="col-lg-12">
+				<h2>Elenco TODO</h2>
+				<table class="table table-striped">
+				<tr>
+					<tH>Nome</th>
+					<th>Descrizione</th>
+					<th>Importante</th>
+					<th>Operazioni</th>
+				</tr>
+				<tr>
+					<td>TODO1</td>
+					<td>Descrizione1</td>
+					<td>Importante</td>
+					<td><button type="button" class="btn btn-xs btn-success">Fatto</button> <button type="button" class="btn btn-xs btn-danger">Elimina</button></td>
+				</tr>
+				<tr>
+					<td>TODO2</td>
+					<td>Descrizione1</td>
+					<td>Importante</td>
+					<td><button type="button" class="btn btn-xs btn-success">Fatto</button> <button type="button" class="btn btn-xs btn-danger">Elimina</button></td>
+				</tr>
+				<tr>
+					<td>TODO3</td>
+					<td>Descrizione1</td>
+					<td>Importante</td>
+					<td><button type="button" class="btn btn-xs btn-success">Fatto</button> <button type="button" class="btn btn-xs btn-danger">Elimina</button></td>
+				</tr>
+  				</table>
+			</div>
+		</div>
+	</div>
+	<div class="col-lg-4" id="todofatti">
+		<h2>TODO Fatti</h2>
+		<ul>
+  			<li>TODO1</li>
+  			<li>TODO2</li>
+  			<li>TODO3</li>
+		</ul>
+	</div>
+</div>
+ <script type="text/javascript" src="https://ajax.googleapis.com/ajax/libs/jquery/3.1.0/jquery.min.js"></script>
+ <script src="/client/js/bootstrap.min.js"></script>
+  </body>
+</html>
